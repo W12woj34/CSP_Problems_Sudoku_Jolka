@@ -1,0 +1,20 @@
+Nazwa problemu: Sudoku_1
+Czas do znalezienia pierwszego rozwiązania: 4.297
+Liczba odwiedzonych węzłów drzewa do znalezienia pierwszego rozwiązania: 484650
+Liczba nawrotów wykonanych do znalezienia pierwszego rozwiązania: 436136
+Całkowity czas działania metody: 4.615
+Całkowita liczba odwiedzonych węzłów drzewa: 525906
+Całkowita liczba nawrotów: 473297
+Liczba rozwiązań: 1
+ 
+Rozwiązania: 
+625371948
+473985216
+819462753
+231794685
+547618329
+968523174
+196857432
+352146897
+784239561
+ 

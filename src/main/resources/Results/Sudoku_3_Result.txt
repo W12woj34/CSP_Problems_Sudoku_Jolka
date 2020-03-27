@@ -1,0 +1,20 @@
+Nazwa problemu: Sudoku_3
+Czas do znalezienia pierwszego rozwiązania: 1.525
+Liczba odwiedzonych węzłów drzewa do znalezienia pierwszego rozwiązania: 114007
+Liczba nawrotów wykonanych do znalezienia pierwszego rozwiązania: 102556
+Całkowity czas działania metody: 2.97
+Całkowita liczba odwiedzonych węzłów drzewa: 285608
+Całkowita liczba nawrotów: 257028
+Liczba rozwiązań: 1
+ 
+Rozwiązania: 
+398156427
+764329518
+125847693
+642791835
+913584762
+587263149
+839615274
+276438951
+451972386
+ 

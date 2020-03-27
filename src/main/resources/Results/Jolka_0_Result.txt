@@ -1,0 +1,14 @@
+Nazwa problemu: Jolka_0
+Czas do znalezienia pierwszego rozwiązania: 0.001
+Liczba odwiedzonych węzłów drzewa do znalezienia pierwszego rozwiązania: 38
+Liczba nawrotów wykonanych do znalezienia pierwszego rozwiązania: 27
+Całkowity czas działania metody: 0.001
+Całkowita liczba odwiedzonych węzłów drzewa: 124
+Całkowita liczba nawrotów: 98
+Liczba rozwiązań: 1
+ 
+Rozwiązania: 
+boat
+art#
+need
+ 

@@ -1,0 +1,20 @@
+Nazwa problemu: Sudoku_4
+Czas do znalezienia pierwszego rozwiązania: 0.807
+Liczba odwiedzonych węzłów drzewa do znalezienia pierwszego rozwiązania: 30674
+Liczba nawrotów wykonanych do znalezienia pierwszego rozwiązania: 27555
+Całkowity czas działania metody: 2.112
+Całkowita liczba odwiedzonych węzłów drzewa: 152002
+Całkowita liczba nawrotów: 136781
+Liczba rozwiązań: 1
+ 
+Rozwiązania: 
+467852391
+312649785
+589371624
+291536847
+736498512
+854127963
+125963478
+673284159
+948715236
+ 

@@ -1,0 +1,20 @@
+Nazwa problemu: Jolka_2
+Czas do znalezienia pierwszego rozwiązania: 9.838
+Liczba odwiedzonych węzłów drzewa do znalezienia pierwszego rozwiązania: 3495754
+Liczba nawrotów wykonanych do znalezienia pierwszego rozwiązania: 2996396
+Całkowity czas działania metody: 22.172
+Całkowita liczba odwiedzonych węzłów drzewa: 7894909
+Całkowita liczba nawrotów: 6767176
+Liczba rozwiązań: 1
+ 
+Rozwiązania: 
+ZKOQS#ZGN
+QEDT#ZOST
+OG###WGKT
+##ZGLLTR#
+QZZTFZOCT
+#DOFOFU##
+LTTF###GA
+RGUL#HOTL
+ZGH#LVOFU
+ 
