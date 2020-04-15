@@ -41,8 +41,8 @@ public class JolkaCspProblem extends CspProblem {
                     if (len > 1) {
                         var.getDomain().addAll(words.stream().filter(w -> w.length() == len).collect(Collectors.toList()));
                         for (int l = 0; l < len; l++) {
-                            var.setValue(var.getValue()+"_");
-                            var.setInitValue(var.getValue()+"_");
+                            var.setValue(var.getValue() + "_");
+                            var.setInitValue(var.getValue() + "_");
                             var.getyIndex().add(i);
                             var.getxIndex().add(j + l);
                         }
@@ -72,8 +72,8 @@ public class JolkaCspProblem extends CspProblem {
                     if (len > 1) {
                         var.getDomain().addAll(words.stream().filter(w -> w.length() == len).collect(Collectors.toList()));
                         for (int l = 0; l < len; l++) {
-                            var.setValue(var.getValue()+"_");
-                            var.setInitValue(var.getValue()+"_");
+                            var.setValue(var.getValue() + "_");
+                            var.setInitValue(var.getValue() + "_");
                             var.getxIndex().add(i);
                             var.getyIndex().add(j + l);
                         }

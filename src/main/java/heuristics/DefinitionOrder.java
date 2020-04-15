@@ -1,9 +1,15 @@
 package heuristics;
 
+import problems.CspProblem;
+
 import java.util.List;
 
 public class DefinitionOrder<T> extends Heuristic<T> {
 
+
+    public DefinitionOrder(CspProblem problem) {
+        super(problem);
+    }
 
     @Override
     public T getNext(T prev, List<T> list) {

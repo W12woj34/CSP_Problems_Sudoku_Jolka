@@ -79,12 +79,9 @@ public class Variable implements Cloneable {
         return cloned;
     }
 
-    public static Comparator<Variable> SortByDomainLength = new Comparator<Variable>() {
+    public static Comparator<Variable> SortByDomainSize = Comparator.comparingInt(a -> a.getDomain().size());
 
-        public int compare(Variable a, Variable b) {
-            return Integer.compare(a.getDomain().size(), b.getDomain().size());
-        }
-    };
+    public static Comparator<Variable> SortByDomainLength = Comparator.comparingInt(a -> -a.getDomain().get(0).length());
 }
 
 

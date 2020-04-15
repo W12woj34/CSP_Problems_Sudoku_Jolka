@@ -12,6 +12,9 @@ public class DataWriter {
 
         ArrayList<String> toWrite = new ArrayList<>();
         toWrite.add("Nazwa problemu: " + data.getName());
+        toWrite.add("Algorytm: " + data.getAlgorithm());
+        toWrite.add("Heurystyka wyboru zmiennej: " + data.getVariableHeuristic());
+        toWrite.add("Heurystyka wyboru wartości: " + data.getValueHeuristic());
         toWrite.add("Czas do znalezienia pierwszego rozwiązania: " + data.getTimeFirst());
         toWrite.add("Liczba odwiedzonych węzłów drzewa do znalezienia pierwszego rozwiązania: " + data.getNodesFirst());
         toWrite.add("Liczba nawrotów wykonanych do znalezienia pierwszego rozwiązania: " + data.getBacktrackFirst());
@@ -24,7 +27,8 @@ public class DataWriter {
         saveSolutions(data.getResults(), toWrite);
 
         try {
-            File file = new File(FILES_PATH + "Results/" + data.getName() + "_Result.txt");
+            File file = new File(FILES_PATH + "Results/" + data.getName() + "_Algorithm-" + data.getAlgorithm() + "_Variable-" +
+                    data.getVariableHeuristic() + "_Value-" + data.getValueHeuristic() + "_Result.txt");
             FileOutputStream outputStream = new FileOutputStream(file);
             PrintWriter writer = new PrintWriter(outputStream);
 

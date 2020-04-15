@@ -42,14 +42,14 @@ public class SudokuCspProblem extends CspProblem {
                     domain.add("7");
                     domain.add("8");
                     domain.add("9");
-                    variables.add(new Variable(domain, ".", x, y, "."));
+                    variables.add(new Variable(domain, "", x, y, ""));
                 } else {
                     domain.add(matrix.get(i).get(j));
                     List<Integer> x = new ArrayList<>();
                     x.add(j);
                     List<Integer> y = new ArrayList<>();
                     y.add(i);
-                    variables.add(new Variable(domain, ".", x, y, "."));
+                    variables.add(new Variable(domain, "", x, y, ""));
                 }
 
             }

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class ResultData {
     private String name;
+    private String algorithm;
+    private String variableHeuristic;
+    private String valueHeuristic;
     private Double timeFirst = null;
     private Integer nodesFirst = null;
     private Integer backtrackFirst = null;
@@ -18,6 +21,30 @@ public class ResultData {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAlgorithm() {
+        return algorithm;
+    }
+
+    public void setAlgorithm(String algorithm) {
+        this.algorithm = algorithm;
+    }
+
+    public String getVariableHeuristic() {
+        return variableHeuristic;
+    }
+
+    public void setVariableHeuristic(String variableHeuristic) {
+        this.variableHeuristic = variableHeuristic;
+    }
+
+    public String getValueHeuristic() {
+        return valueHeuristic;
+    }
+
+    public void setValueHeuristic(String valueHeuristic) {
+        this.valueHeuristic = valueHeuristic;
     }
 
     public Double getTimeFirst() {
@@ -75,5 +102,4 @@ public class ResultData {
     public void setResults(ArrayList<String[][]> results) {
         this.results = results;
     }
-
 }

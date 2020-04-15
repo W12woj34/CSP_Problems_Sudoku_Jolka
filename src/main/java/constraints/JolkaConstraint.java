@@ -9,6 +9,15 @@ public class JolkaConstraint extends Constraint {
     @Override
     public boolean check(Variable var, ArrayList<Variable> variables) {
 
+        int sum = 0;
+        for (int i = 0; i < variables.size(); i++) {
+            if (var.getValue().equals(variables.get(i).getValue())) {
+                sum++;
+            }
+            if (sum > 1) {
+                return false;
+            }
+        }
         for (int i = 0; i < var.getxIndex().size(); i++) {
 
             for (int j = 0; j < variables.size(); j++) {

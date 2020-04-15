@@ -18,7 +18,7 @@ public abstract class CspProblem {
 
     protected abstract void defineVariables();
 
-    public boolean checkConstraints(Variable var, ArrayList<Variable> variables) {
+    public boolean checkConstraints(Variable var) {
 
         return constraints.check(var, variables);
 
